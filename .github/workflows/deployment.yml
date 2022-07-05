@@ -14,7 +14,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: the-human-colossus-foundation/dkms-webpage
+        TARGET_REPO: the-human-colossus-foundation/dkms-website
         TARGET_BRANCH: pages
         BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist
