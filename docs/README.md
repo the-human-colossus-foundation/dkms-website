@@ -7,8 +7,8 @@ heroImageDark: /logo-col-rev.png
 heroText: Decentralised Key Management System
 tagline: 
 actions:
-  - text: Get Started
-    link: /guide/getting-started.md
+  - text: Introduction
+    link: /introduction.md
     type: primary
 features:
   - title: Self-certifying identifiers
