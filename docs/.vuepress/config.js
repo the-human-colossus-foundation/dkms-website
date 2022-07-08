@@ -7,11 +7,39 @@ module.exports = {
   plugins: [
     searchPlugin({
       // options
-    }),
+    })
   ],
   theme: defaultTheme({
     logo: '/logo.png',
     // default theme config
+    sidebar: {
+      '/introduction': [
+        {
+          text: 'Introduction',
+          children: [
+            '/introduction.md',
+            '/introduction/glossary.md',
+            '/introduction/concepts.md',
+          ],
+        },
+        {
+          text: 'Usage',
+          children: [
+            '/usage/infrastructure.md',
+            '/usage/client.md'
+          ],
+        }
+      ],
+      '/usage': [
+        {
+          text: 'Usage',
+          children: [
+            '/usage/infrastructure.md',
+            '/usage/client.md'
+          ],
+        }
+      ]
+    },
     navbar: [
       {
         text: 'Home',
