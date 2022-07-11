@@ -32,6 +32,14 @@ module.exports = {
       ],
       '/usage': [
         {
+          text: 'Introduction',
+          children: [
+            '/introduction.md',
+            '/introduction/glossary.md',
+            '/introduction/concepts.md',
+          ],
+        },
+        {
           text: 'Usage',
           children: [
             '/usage/infrastructure.md',
