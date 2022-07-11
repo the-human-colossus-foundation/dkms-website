@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-785f2ecf","path":"/usage/infrastructure.html","title":"Infrastructure","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1657573468000,"contributors":[{"name":"blelump","email":"blelump@martex.nom.pl","commits":1}]},"filePathRelative":"usage/infrastructure.md"}');export{e as data};
