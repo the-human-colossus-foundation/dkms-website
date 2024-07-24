@@ -1,6 +1,16 @@
 # Fundamental concepts
 
+## KERI
+
+DKMS is build upon Key Event Receipt Infrastructure (KERI) which is the first truly fully decentralized identity system.
+
+Website: [https://keri.one/](https://keri.one/)
+
+
+
 ## CESR protocol
+
+Specification: [https://datatracker.ietf.org/doc/draft-ssmith-cesr/](https://datatracker.ietf.org/doc/draft-ssmith-cesr/)
 
 Use cases built upon DKMS infrastructure may require mass scale information dissemination. To achieve maximum performance and throughput, new type of protocol was designed to fulfill these goals. The underlying assumptions to consider are as following:
 - compactness -- DKMS specific additions for information exchange, ie. attach event signature.
@@ -13,6 +23,8 @@ Therefore CESR protocol emerged that is capable to operate with existing and wel
 Any information exchanged over the network between any actors in DKMS is sent in the CESR format.
 
 ## Discoverability mechanism through OOBI's
+
+Specification: [https://datatracker.ietf.org/doc/draft-ssmith-oobi/](https://datatracker.ietf.org/doc/draft-ssmith-oobi/)
 
 Two independent participants of the DKMS infrastructure must have a way to be able to resolve their Identifeir KEL's. Thus we make an underlying assumption that within the network *"everyone knows something, and no one knows everything"*. In other words there is no central point, where any participant would go and query for any other participant KEL. Instead it is enough for given participant to either be in a direct relationship with another one or have a "business card" of the other one. These two approaches, albeit not sufficient at first glance, are exhaustive discovery mechanism for any member of the network. The latter approach is interesting in particular as it enables the *Out-of-Band-Introduction protocol* (OOBI). The Out-of-Band means any approach that is suitable for transfer information can be considered. The simplest form of an OOBI might look like the following:
 ```

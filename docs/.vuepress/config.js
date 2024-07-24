@@ -17,7 +17,9 @@ module.exports = {
         {
           text: 'Introduction',
           children: [
+            '/introduction/why.md',
             '/introduction.md',
+            '/introduction/architecture.md',
             '/introduction/glossary.md',
             '/introduction/concepts.md',
           ],
@@ -34,7 +36,9 @@ module.exports = {
         {
           text: 'Introduction',
           children: [
+            '/introduction/why.md',
             '/introduction.md',
+            '/introduction/architecture.md',
             '/introduction/glossary.md',
             '/introduction/concepts.md',
           ],
