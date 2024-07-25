@@ -1,7 +1,6 @@
 ---
 title: DKMS Architecture
 description: Architecture of DKMS and it's components
-
 ---
 
 # Architecture
@@ -20,14 +19,15 @@ knowledge.
 
 On a very high level DKMS consists of two major components:
 
-- **Ambient Infrastructure**: provides a mechanism for duplicity detection which
-  is designated by the governance of the ecosystem.
 - **Propagation Infrastructure**: allows entities to propagate
   their key state into the network and is designated by the controller himself.
+- **Duplicity Infrastructure**: provides a mechanism for duplicity detection which
+  is designated by the governance of the ecosystem.
 
-> IMPORTANT
-Governance of ambient infrastructure and propagation infrastructure should be
+::: tip IMPORTANT
+Governance of duplicity infrastructure and propagation infrastructure should be
 split as it is crucial for the security of the whole ecosystem!
+:::
 
 ![DKMS Architecture](/dkms-arch-1.svg)
 
@@ -43,7 +43,7 @@ Leveraging **Propagation infrastructure** application can use its API to
 propagate key states to the network, at the same time witnessing the intention of
 the controller and protecting him from external exploitation of its identifier.
 
-Using an **Ambient Infrastructure** application can monitor other identifiers to
+Using an **Duplicity Infrastructure** application can monitor other identifiers to
 ensure uniqueness and prevent duplicity within the system. These capabilities
 ensure that even the smallest ecosystem can seamlessly integrate and operate
 within larger frameworks, reflecting a fractal architecture. This design allows

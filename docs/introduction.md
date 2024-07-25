@@ -1,8 +1,8 @@
 ---
 title: DKMS Introduction
 description: Decentralized Key Management Syste
-
 ---
+
 # Decentralised Key Management System
 
 Key management is crucial in safeguarding digital information and dealing with
@@ -63,7 +63,7 @@ and resilient authentication system, making it an ideal choice for environments
 demanding stringent data security and privacy without compromising on
 accessibility and interoperability.
 
-## How DKSM works?
+## How DKMS works?
 
 DKMS utilizes decentralized authentication, a key management approach that
 cryptographically binds an identifier to an associated log. This log records
