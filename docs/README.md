@@ -5,11 +5,14 @@ description:
 heroImage: /logo.png
 heroImageDark: /logo-col-rev.png
 heroText: Decentralised Key Management System
-tagline: 
+tagline:
 actions:
   - text: Introduction
-    link: /introduction.md
+    link: /introduction/why
     type: primary
+  - text: Developer Guide
+    link: /developer-guide/infrastructure
+    type: secondary
 features:
   - title: Self-certifying identifiers
     details: Identifiers emerge as a result of conducting a derivation of the key pair public key, that is then injected into one way hash function.
