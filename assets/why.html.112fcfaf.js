@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-479eeb0d","path":"/introduction/why.html","title":"Why DKMS?","lang":"en-US","frontmatter":{"title":"Why DKMS?","description":"Why to use DKMS and where it is usefull?"},"excerpt":"","headers":[],"git":{},"filePathRelative":"introduction/why.md"}');export{t as data};
