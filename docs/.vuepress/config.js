@@ -1,62 +1,49 @@
-const { defaultTheme } = require('vuepress');
-const { searchPlugin } = require('@vuepress/plugin-search')
+const { defaultTheme } = require("vuepress");
+const { searchPlugin } = require("@vuepress/plugin-search");
 
 module.exports = {
-  lang: 'en-US',
-  title: 'Decentralised Key Management System',
+  lang: "en-US",
+  title: "Decentralised Key Management System",
   plugins: [
     searchPlugin({
       // options
-    })
+    }),
   ],
   theme: defaultTheme({
-    logo: '/logo.png',
+    logo: "/logo.png",
     // default theme config
     sidebar: {
-      '/introduction': [
+      "/introduction": [
         {
-          text: 'Introduction',
+          text: "Introduction",
           children: [
-            '/introduction/why.md',
-            '/introduction.md',
-            '/introduction/architecture.md',
-            '/introduction/glossary.md',
-            '/introduction/concepts.md',
+            "/introduction/why.md",
+            "/introduction.md",
+            "/introduction/architecture.md",
+            "/introduction/glossary.md",
+            "/introduction/concepts.md",
           ],
         },
-        {
-          text: 'Usage',
-          children: [
-            '/usage/infrastructure.md',
-            '/usage/client.md'
-          ],
-        }
       ],
-      '/usage': [
+      "/developer-guide": [
         {
-          text: 'Introduction',
+          text: "Developer Guide",
           children: [
-            '/introduction/why.md',
-            '/introduction.md',
-            '/introduction/architecture.md',
-            '/introduction/glossary.md',
-            '/introduction/concepts.md',
+            "/developer-guide/infrastructure.md",
+            "/developer-guide/client.md",
           ],
         },
-        {
-          text: 'Usage',
-          children: [
-            '/usage/infrastructure.md',
-            '/usage/client.md'
-          ],
-        }
-      ]
+      ],
     },
     navbar: [
       {
-        text: 'Home',
-        link: '/',
+        text: "DKMS Concepts",
+        link: "/introduction/why",
+      },
+      {
+        text: "Developer Guide",
+        link: "/developer-guide/infrastructure",
       },
     ],
-  })
-}
+  }),
+};
