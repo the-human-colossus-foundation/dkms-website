@@ -1,0 +1,1 @@
+const t=JSON.parse(`{"key":"v-287fb5ea","path":"/introduction/architecture.html","title":"DKMS Architecture","lang":"en-US","frontmatter":{"title":"DKMS Architecture","description":"Architecture of DKMS and it's components"},"excerpt":"","headers":[],"git":{},"filePathRelative":"introduction/architecture.md"}`);export{t as data};
