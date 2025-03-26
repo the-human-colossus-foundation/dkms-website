@@ -1,17 +1,25 @@
-const { defaultTheme } = require("vuepress");
-const { searchPlugin } = require("@vuepress/plugin-search");
+import { defaultTheme } from "@vuepress/theme-default";
+import { searchPlugin } from "@vuepress/plugin-search";
 
-module.exports = {
+import { viteBundler } from "@vuepress/bundler-vite";
+import { defineUserConfig } from "vuepress";
+
+export default {
   lang: "en-US",
   title: "Decentralised Key Management System",
+
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
   plugins: [
     searchPlugin({
-      // options
+      // options (add if needed)
     }),
   ],
+
   theme: defaultTheme({
     logo: "/logo.png",
-    // default theme config
     sidebar: {
       "/introduction": [
         {

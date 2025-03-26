@@ -2,7 +2,7 @@
 
 ## KERI
 
-DKMS is build upon Key Event Receipt Infrastructure (KERI) which is the first truly fully decentralized identity system.
+DKMS is build upon Key Event Receipt Infrastructure (KERI) which is the first truly fully decentralized key managment system.
 
 Website: [https://keri.one/](https://keri.one/)
 
