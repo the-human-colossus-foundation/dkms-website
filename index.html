@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>DKMS | Decentralised Key Management System</title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-D4wt08oL.css" as="style"><link rel="stylesheet" href="/assets/style-D4wt08oL.css">
+    <link rel="modulepreload" href="/assets/app-1xjWvnao.js"><link rel="modulepreload" href="/assets/index.html-BmW0x01q.js">
+    <link rel="prefetch" href="/assets/introduction.html-DNA4UG2g.js" as="script"><link rel="prefetch" href="/assets/client.html-CYr4kef0.js" as="script"><link rel="prefetch" href="/assets/infrastructure.html-0GXNgkfu.js" as="script"><link rel="prefetch" href="/assets/architecture.html-D8gm0Eh1.js" as="script"><link rel="prefetch" href="/assets/concepts.html-DSutdwmW.js" as="script"><link rel="prefetch" href="/assets/glossary.html-CRHerZME.js" as="script"><link rel="prefetch" href="/assets/why.html-B0QxC1bc.js" as="script"><link rel="prefetch" href="/assets/404.html-BIjQngYx.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-sidebar external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><img class="vp-site-logo" src="/logo.png" alt="Decentralised Key Management System"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">Decentralised Key Management System</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/introduction/why.html" aria-label="DKMS Concepts"><!--[--><!--[--><!--]--><!--]-->DKMS Concepts<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/developer-guide/infrastructure.html" aria-label="Developer Guide"><!--[--><!--[--><!--]--><!--]-->Developer Guide<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><form class="search-box" role="search"><input type="search" placeholder="Search" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/introduction/why.html" aria-label="DKMS Concepts"><!--[--><!--[--><!--]--><!--]-->DKMS Concepts<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/developer-guide/infrastructure.html" aria-label="Developer Guide"><!--[--><!--[--><!--]--><!--]-->Developer Guide<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-home"><header class="vp-hero"><!----><h1 id="main-title">Decentralised Key Management System</h1><!----><p class="vp-hero-actions"><!--[--><a class="route-link auto-link vp-hero-action-button primary" href="/introduction/why.html" aria-label="Introduction"><!--[--><!--[--><!--]--><!--]-->Introduction<!--[--><!--[--><!--]--><!--]--></a><a class="route-link auto-link vp-hero-action-button secondary" href="/developer-guide/infrastructure.html" aria-label="Developer Guide"><!--[--><!--[--><!--]--><!--]-->Developer Guide<!--[--><!--[--><!--]--><!--]--></a><!--]--></p></header><div class="vp-features"><!--[--><div class="vp-feature"><h2>Self-certifying identifiers</h2><p>Identifiers emerge as a result of conducting a derivation of the key pair public key, that is then injected into one way hash function.</p></div><div class="vp-feature"><h2>Manageable identifiers</h2><p>Identifier digest is bound to the provenance log that establishes append only evidence of changes.</p></div><div class="vp-feature"><h2>Pre-rotation mechanism</h2><p>Provenance log characteristics that cryptographically guarantees the ability to change the key pair to next one, declared on identifier inception.</p></div><div class="vp-feature"><h2>Delegation mechanism</h2><p>Ability to create identifiers that are in parent-child relationship.</p></div><div class="vp-feature"><h2>Multi signature mechanism</h2><p>Ability to expect minimum amount of digital signatures defined by treshold.</p></div><div class="vp-feature"><h2>NIST compliance</h2><p>Only fundamental cryptographic primitives are used for one way hash functions and public key cryptography. No next-generation-crypto primitives are present, although it is perfectly fine to employ them.</p></div><div class="vp-feature"><h2>Post Quantum resistance</h2><p>Even though modern public-private key pair generation functions are not resistant to Shor&#39;s algorithm, this is not a concern for an Identifier event log. Each declared rotation key in the event log passes through a one-way hash function. Since one-way hash functions are not easily reversible, even when using Quantum computers, reversing the private key from its public key digest is, in essence, no different from similar mechanisms used in non-quantum computers.</p></div><div class="vp-feature"><h2>Cryptographic agility</h2><p>A safety measure to act prematurely, when given cryptographic algorithm becomes compromised.</p></div><div class="vp-feature"><h2>Truly interoperable solution</h2><p>Identifiers of an individual are not bound to any particular system, platform, network, or technology. Instead, each individual decides where to anchor their event log.</p></div><!--]--></div><div vp-content><div></div></div><!--[--><div class="vp-footer" vp-footer>EUPL 1.2 Licensed | Copyright © 2018-present Human Colossus Foundation</div><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-1xjWvnao.js" defer></script>
+  </body>
+</html>

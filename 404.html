@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Decentralised Key Management System</title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-D4wt08oL.css" as="style"><link rel="stylesheet" href="/assets/style-D4wt08oL.css">
+    <link rel="modulepreload" href="/assets/app-1xjWvnao.js"><link rel="modulepreload" href="/assets/404.html-BIjQngYx.js">
+    <link rel="prefetch" href="/assets/index.html-BmW0x01q.js" as="script"><link rel="prefetch" href="/assets/introduction.html-DNA4UG2g.js" as="script"><link rel="prefetch" href="/assets/client.html-CYr4kef0.js" as="script"><link rel="prefetch" href="/assets/infrastructure.html-0GXNgkfu.js" as="script"><link rel="prefetch" href="/assets/architecture.html-D8gm0Eh1.js" as="script"><link rel="prefetch" href="/assets/concepts.html-DSutdwmW.js" as="script"><link rel="prefetch" href="/assets/glossary.html-CRHerZME.js" as="script"><link rel="prefetch" href="/assets/why.html-B0QxC1bc.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-db254a69><main class="page" data-v-db254a69><div vp-content data-v-db254a69><h1 data-v-db254a69>404</h1><blockquote data-v-db254a69>How did we get here?</blockquote><a class="route-link" href="/" data-v-db254a69>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-1xjWvnao.js" defer></script>
+  </body>
+</html>
