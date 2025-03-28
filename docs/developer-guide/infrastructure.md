@@ -11,9 +11,9 @@ and for more information see [setup](#setup) section.
 ## Argo
 
 Argo is a sandbox which allows you to test right away the DKMS infrastructure without need to setup anything.
-Checkout our public [dashboard](http://dashboard.argo.colossi.network/public-dashboards/2bdeda88c701459e8ec25802f79b7da2) to see the current state of the network.
+Checkout our public [dashboard](https://dashboard.argo.colossi.network/public-dashboards/2bdeda88c701459e8ec25802f79b7da2) to see the current state of the network.
 
-<iframe src="http://dashboard.argo.colossi.network/public-dashboards/2bdeda88c701459e8ec25802f79b7da2" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="https://dashboard.argo.colossi.network/public-dashboards/2bdeda88c701459e8ec25802f79b7da2" width="100%" height="600" frameborder="0"></iframe>
 
 
 ## Setup
