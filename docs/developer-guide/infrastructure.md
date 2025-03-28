@@ -15,7 +15,7 @@ Checkout our public [dashboard](https://dashboard.argo.colossi.network/public-da
 
 ## Setup
 
-If you would like to run your own DKMS network, follow the instructions below.
+If you would like to run your own DKMS network, follow the instructions below or simply try [dkms-demo](https://github.com/THCLab/dkms-demo/) which is ready to be run locally with docker compose.
 
 ### Deploy witnesses
 
