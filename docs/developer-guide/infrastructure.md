@@ -20,26 +20,6 @@ Checkout our public [dashboard](http://dashboard.argo.colossi.network/public-das
 
 If you would like to run your own DKMS network, follow the instructions below.
 
-### Design your network
-
-Decide how many nodes you want to have in the network. The number of nodes in
-the network is use-case dependent, but it is vital to analyze the system's
-tolerance to Byzantine failures. In the presence of Byzantine failures, the
-network must tolerate up to 1/3 of the malicious nodes. For this to be
-achievable, the total number of nodes `N` must be at least three times the
-number of malicious nodes plus one. In other words, `N = 3f +1`, where `f` is
-the amount of malicious nodes. This applies both to the desimination
-infrastructure (witnesses) and duplicity detection (watchers).
-
-::: tip
-Pay attention to the governance model of the network. Witnesses and watchers
-should never be controlled by the same entity. The governance model should be
-designed in a way that no single entity can control the network.
-
-Assuming entity `A` provides witnesses to `Contollers` same entity `A` should
-never provide watcher functionality to observe those controllers.
-:::
-
 ### Deploy witnesses
 
 Witnesses play a crucial role in the DKMS infrastructure. They are responsible
